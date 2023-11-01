@@ -1,27 +1,31 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While processing text tag {/size} in 'Emergea{/size}'.:
-  File "game/script.rpy", line 18, in script
-    w "Hey there"
-Exception: '/size' closes a text tag that isn't open.
+While loading <renpy.display.im.Image object ('iotnext/emergea.png') at 0x0000000005581b50>:
+  File "game/script.rpy", line 86, in script
+    w "Managing people with the ability to lead and influence and Mentor them or others."
+  File "renpy/common/000window.rpy", line 114, in _window_auto_callback
+    _window_show(auto=True)
+  File "renpy/common/000window.rpy", line 69, in _window_show
+    renpy.with_statement(trans)
+OSError: Couldn't find file 'iotnext/emergea.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 18, in script
-    w "Hey there"
-  File "C:\Program Files\renpy-8.1.0-sdk\renpy\ast.py", line 930, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "C:\Program Files\renpy-8.1.0-sdk\renpy\exports.py", line 1473, in say
-    who(what, *args, **kwargs)
-  File "C:\Program Files\renpy-8.1.0-sdk\renpy\character.py", line 1349, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "C:\Program Files\renpy-8.1.0-sdk\renpy\character.py", line 1000, in do_display
-    display_say(who,
-  File "C:\Program Files\renpy-8.1.0-sdk\renpy\character.py", line 690, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "C:\Program Files\renpy-8.1.0-sdk\renpy\ui.py", line 299, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "game/script.rpy", line 86, in script
+    w "Managing people with the ability to lead and influence and Mentor them or others."
+  File "C:\Program Files\renpy-8.1.0-sdk\renpy\ast.py", line 898, in execute
+    statement_name(stmt_name)
+  File "C:\Program Files\renpy-8.1.0-sdk\renpy\ast.py", line 47, in statement_name
+    i(name)
+  File "renpy/common/000window.rpy", line 114, in _window_auto_callback
+    _window_show(auto=True)
+  File "renpy/common/000window.rpy", line 69, in _window_show
+    renpy.with_statement(trans)
+  File "C:\Program Files\renpy-8.1.0-sdk\renpy\exports.py", line 1757, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Program Files\renpy-8.1.0-sdk\renpy\display\core.py", line 2895, in do_with
+    return self.interact(trans_pause=True,
   File "C:\Program Files\renpy-8.1.0-sdk\renpy\display\core.py", line 3499, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
   File "C:\Program Files\renpy-8.1.0-sdk\renpy\display\core.py", line 4089, in interact_core
@@ -32,6 +36,10 @@ Full traceback:
   File "render.pyx", line 266, in renpy.display.render.render
   File "C:\Program Files\renpy-8.1.0-sdk\renpy\display\layout.py", line 886, in render
     surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "C:\Program Files\renpy-8.1.0-sdk\renpy\display\transition.py", line 378, in render
+    bottom = render(self.old_widget, width, height, st, at)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 266, in renpy.display.render.render
   File "C:\Program Files\renpy-8.1.0-sdk\renpy\display\layout.py", line 886, in render
@@ -47,21 +55,19 @@ Full traceback:
   File "accelerator.pyx", line 979, in renpy.display.accelerator.RenderTransform.render
   File "accelerator.pyx", line 404, in renpy.display.accelerator.RenderTransform.render_child
   File "render.pyx", line 266, in renpy.display.render.render
-  File "C:\Program Files\renpy-8.1.0-sdk\renpy\display\image.py", line 513, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "C:\Program Files\renpy-8.1.0-sdk\renpy\display\image.py", line 316, in wrap_render
-    rend = render(child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "C:\Program Files\renpy-8.1.0-sdk\renpy\text\text.py", line 2171, in render
-    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
-  File "C:\Program Files\renpy-8.1.0-sdk\renpy\text\text.py", line 629, in __init__
-    self.paragraphs = self.segment(text.tokens, style, renders, text)
-  File "C:\Program Files\renpy-8.1.0-sdk\renpy\text\text.py", line 1066, in segment
-    raise Exception("%r closes a text tag that isn't open." % text)
-Exception: '/size' closes a text tag that isn't open.
+  File "C:\Program Files\renpy-8.1.0-sdk\renpy\display\im.py", line 676, in render
+    return cache.get(self, render=True)
+  File "C:\Program Files\renpy-8.1.0-sdk\renpy\display\im.py", line 330, in get
+    surf = image.load()
+  File "C:\Program Files\renpy-8.1.0-sdk\renpy\display\im.py", line 803, in load
+    raise e
+  File "C:\Program Files\renpy-8.1.0-sdk\renpy\display\im.py", line 757, in load
+    filelike = renpy.loader.load(self.filename, directory="images")
+  File "C:\Program Files\renpy-8.1.0-sdk\renpy\loader.py", line 833, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'iotnext/emergea.png'.
 
 Windows-10-10.0.19043 AMD64
 Ren'Py 8.1.0.23051307
 CV 1.0
-Mon Oct 30 17:07:15 2023
+Wed Nov  1 12:15:39 2023

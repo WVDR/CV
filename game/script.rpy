@@ -16,7 +16,7 @@ label maritius:
     show image "images/emergea.png"
     show jobTitle "{size=+20}Senior Solutions Architect{/size}"
     show companyTitle "{size=+10}Emergea{/size}"
-    show jobPeriod "{size=-5}{i}Jan 2017 - Oct 2017 · 10 mos{/i}{/size}"
+    show jobPeriod "{size=-5}{i}Jan 2017 - Oct 2017 · 10 months{/i}{/size}"
     show campanyArea "{size=-5}{i}Cape Town Area, South Africa{/i}{/size}"
     w "Worked on queuing system development: https://www.qmatic.com/ Orchestra development"
     w "This included develop of custom queuing solutions normally in the web patform with the use of AngularJS and some react."
@@ -49,7 +49,7 @@ screen crossroads():
         imagebutton auto "CBD_left_%s.png" action [ToggleScreen("crossroads"), Jump("ct")]        
 
     vbox xalign 0.473 yalign 0.333:                
-        imagebutton auto "CBD_Right_%s.png" action [ToggleScreen("crossroads"), Jump("ct_or_jozi")]
+        imagebutton auto "CBD_Right_%s.png" action [ToggleScreen("crossroads"), Jump("iotnxt")]
 
     vbox xalign 0.39 yalign 0.70:        
         imagebutton auto "SouthAfrica_%s.png" action [ToggleScreen("crossroads"), Jump("start")]
@@ -77,19 +77,17 @@ screen capetown():
     vbox xalign 0.8 yalign 0.91:        
         imagebutton auto "SouthAfrica_%s.png" action [ToggleScreen("capetown"), Jump("ct_or_jozi")]
 
-screen jozi():
-    ## This ensures that any other menu screen is replaced.
-    tag menu
-    image "images/background_game_branch.webm"
-        
-    vbox xalign 0.337 yalign 0.403:        
-        imagebutton auto "CBD_left_%s.png" action [ToggleScreen("gameMenu"), Jump("ct_or_jozi")]        
-
-    vbox xalign 0.473 yalign 0.333:                
-        imagebutton auto "CBD_Right_%s.png" action [ToggleScreen("gameMenu"), Jump("ct_or_jozi")]
-
-    vbox xalign 0.39 yalign 0.25:
-        text "{size=+30}World Map{/size}"        
+label iotnxt:
+    show image "images/iotnext.png"
+    show jobTitle "{size=+20}Senior Software Engineer Team Lead (Temp){/size}"
+    show companyTitle "{size=+10}IoT.nxt{/size}"
+    show jobPeriod "{size=-5}{i}Jun 2022 - Dec 2022 · 7 months{/i}{/size}"
+    show campanyArea "{size=-5}{i}South Africa{/i}{/size}"
+    w "Managing people with the ability to lead and influence and Mentor them or others."
+    w "Leading and managing the delivery of software development projects in a structured environment."
+    w "Applied development approaches and methodologies including Agile and/or Waterfall."
+    w "Exposure to Product Lifecycle and Management tools."
+    show screen gameMenu
 
 label splashscreen:
     scene black
