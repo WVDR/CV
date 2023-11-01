@@ -10,18 +10,22 @@ image jobTitle = ParameterizedText(xalign=0.22, yalign=0.1)
 image companyTitle = ParameterizedText(xalign=0.2, yalign=0.17)
 image jobPeriod = ParameterizedText(xalign=0.2, yalign=0.25)
 image campanyArea = ParameterizedText(xalign=0.2, yalign=0.30)
+image background = "#000"
+image background emergea = "images/emergea.png"
+image background iotnxt = "images/iotnext.png"
 
 
 label maritius:
-    show image "images/emergea.png"
+    show background emergea
     show jobTitle "{size=+20}Senior Solutions Architect{/size}"
     show companyTitle "{size=+10}Emergea{/size}"
     show jobPeriod "{size=-5}{i}Jan 2017 - Oct 2017 · 10 months{/i}{/size}"
     show campanyArea "{size=-5}{i}Cape Town Area, South Africa{/i}{/size}"
     w "Worked on queuing system development: https://www.qmatic.com/ Orchestra development"
     w "This included develop of custom queuing solutions normally in the web patform with the use of AngularJS and some react."
-    w "Also completed an android application integration with orchestra and custom orchestra development with AngularJS and socket.io technology stack."    
-    show screen gameMenu
+    w "Also completed an android application integration with orchestra and custom orchestra development with AngularJS and socket.io technology stack."
+    scene black
+    call screen gameMenu
 
 screen gameMenu():    
     ## This ensures that any other menu screen is replaced.
@@ -78,7 +82,17 @@ screen capetown():
         imagebutton auto "SouthAfrica_%s.png" action [ToggleScreen("capetown"), Jump("ct_or_jozi")]
 
 label iotnxt:
-    show image "images/iotnext.png"
+    show background iotnxt
+    menu:
+        "Select Role"
+
+        "Team Lead (Jun 2022 - Dec 2022)":
+            jump iotnxt_Teamlead
+
+        "Mar 2022 - Present  · 1 yr 9 months":
+            jump iotnxt_SoftwareEngineer    
+
+label iotnxt_Teamlead:    
     show jobTitle "{size=+20}Senior Software Engineer Team Lead (Temp){/size}"
     show companyTitle "{size=+10}IoT.nxt{/size}"
     show jobPeriod "{size=-5}{i}Jun 2022 - Dec 2022 · 7 months{/i}{/size}"
@@ -87,7 +101,22 @@ label iotnxt:
     w "Leading and managing the delivery of software development projects in a structured environment."
     w "Applied development approaches and methodologies including Agile and/or Waterfall."
     w "Exposure to Product Lifecycle and Management tools."
-    show screen gameMenu
+    scene black
+    call screen gameMenu
+
+label iotnxt_SoftwareEngineer:
+    show jobTitle "{size=+20}Software Engineer{/size}"
+    show companyTitle "{size=+10}IoT.nxt{/size}"
+    show jobPeriod "{size=-5}{i}Mar 2022 - Present  · 1 yr 9 months{/i}{/size}"
+    show campanyArea "{size=-5}{i}South Africa{/i}{/size}"
+    w "Utilized relevant development languages and technologies to design, develop,and maintain software applications."
+    w "Identified, installed, and tested software systems we have built from the ground up."
+    w "Ranging from internal systems that can help businesses be more efficient to produce systems that can be sold on the open market."
+    w "Once the initial software system was delivered; also help in maintaining, and update the system."
+    scene black
+    call screen gameMenu
+
+
 
 label splashscreen:
     scene black
