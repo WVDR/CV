@@ -20,6 +20,7 @@ image background CapitecBank = "CapitecBank.png"
 
 
 label maritius:
+    play sound "sound/mouse-click-104737.mp3"
     show background emergea
     show jobTitle "{size=+20}Senior Solutions Architect{/size}"
     show companyTitle "{size=+10}Emergea{/size}"
@@ -31,10 +32,15 @@ label maritius:
     scene black
     call screen gameMenu
 
+label africa:
+    play sound "sound/mouse-click-104737.mp3"    
+    scene black
+    call screen gameMenu
+
 screen gameMenu():    
     ## This ensures that any other menu screen is replaced.
     tag menu
-
+    
     add gui.game_menu_background
 
     vbox xalign 0.45 yalign 0.72:        
@@ -60,7 +66,7 @@ screen crossroads():
         imagebutton auto "CBD_Right_%s.png" action [ToggleScreen("crossroads"), Jump("iotnxt")]
 
     vbox xalign 0.39 yalign 0.70:        
-        imagebutton auto "SouthAfrica_%s.png" action [ToggleScreen("crossroads"), Jump("start")]
+        imagebutton auto "SouthAfrica_%s.png" action [ToggleScreen("crossroads"), Jump("africa")]
 
     vbox xalign 0.39 yalign 0.25:
         text "{size=+30}Cross Roads{/size}"        
@@ -86,6 +92,7 @@ screen capetown():
         imagebutton auto "SouthAfrica_%s.png" action [ToggleScreen("capetown"), Jump("ct_or_jozi")]
 
 label iotnxt:
+    play sound "sound/mouse-click-104737.mp3"
     show background iotnxt
     menu:
         "Select Role Or Go Back"
@@ -101,6 +108,7 @@ label iotnxt:
             call screen crossroads
 
 label HomeChoice:
+    play sound "sound/mouse-click-104737.mp3"
     show background homechoice
     menu:
         "Select Role Or Go Back"
@@ -116,6 +124,7 @@ label HomeChoice:
             call screen capetown
 
 label CapitecBank:
+    play sound "sound/mouse-click-104737.mp3"
     show background CapitecBank
     menu:
         "Select Role Or Go Back"
@@ -137,6 +146,7 @@ label CapitecBank:
             call screen capetown
 
 label CapitecBank_ApplicationDeveloper:
+    play sound "sound/mouse-click-104737.mp3"
     show jobTitle "{size=+20}Application Developer{/size}"
     show companyTitle "{size=+10}Capitec Bank{/size}"
     show jobPeriod "{size=-5}{i}2012 - 2014 (2 years){/i}{/size}"
@@ -147,6 +157,7 @@ label CapitecBank_ApplicationDeveloper:
     jump CapitecBank
 
 label CapitecBank_ApplicationProgrammer:
+    play sound "sound/mouse-click-104737.mp3"
     show jobTitle "{size=+20}Application Developer{/size}"
     show companyTitle "{size=+10}Capitec Bank{/size}"
     show jobPeriod "{size=-5}{i}2009 - 2012 (3 years){/i}{/size}"
@@ -157,6 +168,7 @@ label CapitecBank_ApplicationProgrammer:
     jump CapitecBank
 
 label CapitecBank_DatabaseDeveloper:
+    play sound "sound/mouse-click-104737.mp3"
     show jobTitle "{size=+20}Database Developer{/size}"
     show companyTitle "{size=+10}Capitec Bank{/size}"
     show jobPeriod "{size=-5}{i}2007 - 2009 (2 years){/i}{/size}"
@@ -167,6 +179,7 @@ label CapitecBank_DatabaseDeveloper:
     jump CapitecBank
 
 label CapitecBank_ClientCareCallCentreAgent:
+    play sound "sound/mouse-click-104737.mp3"
     show jobTitle "{size=+20}Client Care Call Centre Agent{/size}"
     show companyTitle "{size=+10}Capitec Bank{/size}"
     show jobPeriod "{size=-5}{i}2006 - 2007 (1 year){/i}{/size}"
@@ -178,6 +191,7 @@ label CapitecBank_ClientCareCallCentreAgent:
     jump CapitecBank
 
 label VulcanLabs:
+    play sound "sound/mouse-click-104737.mp3"
     show background VulcanLabs
     show jobTitle "{size=+20}Consultant{/size}"
     show companyTitle "{size=+10}Vulcan Labs{/size}"
@@ -194,7 +208,8 @@ label VulcanLabs:
     scene black
     call screen capetown
 
-label CapeTownCBD_WesternCapeGovernment:    
+label CapeTownCBD_WesternCapeGovernment:
+    play sound "sound/mouse-click-104737.mp3"    
     show background WesternCapeGovernment
     show jobTitle "{size=+20}Senior Applications Consultant (Vulcan Labs Consultant){/size}"
     show companyTitle "{size=+10}Vulcan Labs{/size}"
@@ -209,7 +224,8 @@ label CapeTownCBD_WesternCapeGovernment:
     call screen capetown
 
 
-label iotnxt_Teamlead:    
+label iotnxt_Teamlead:
+    play sound "sound/mouse-click-104737.mp3"
     show jobTitle "{size=+20}Senior Software Engineer Team Lead (Temp){/size}"
     show companyTitle "{size=+10}IoT.nxt{/size}"
     show jobPeriod "{size=-5}{i}June 2022 - December 2022 (7 months){/i}{/size}"
@@ -222,6 +238,7 @@ label iotnxt_Teamlead:
     jump iotnxt
 
 label iotnxt_SoftwareEngineer:
+    play sound "sound/mouse-click-104737.mp3"
     show jobTitle "{size=+20}Software Engineer{/size}"
     show companyTitle "{size=+10}IoT.nxt{/size}"
     show jobPeriod "{size=-5}{i}March 2022 - Present (1 year 9 months){/i}{/size}"
@@ -233,7 +250,8 @@ label iotnxt_SoftwareEngineer:
     scene black
     jump iotnxt
 
-label HomeChoice_SeniorSoftwareEngineer_CyberproConsultant:    
+label HomeChoice_SeniorSoftwareEngineer_CyberproConsultant:
+    play sound "sound/mouse-click-104737.mp3"
     show jobTitle "{size=+20}{/size}"
     show companyTitle "{size=+10}HomeChoice{/size}"
     show jobPeriod "{size=-5}{i}December 2017 - December 2020 (3 years 1 month){/i}{/size}"
@@ -245,7 +263,8 @@ label HomeChoice_SeniorSoftwareEngineer_CyberproConsultant:
     scene black
     jump HomeChoice
 
-label HomeChoice_SeniorSoftwareEngineer:    
+label HomeChoice_SeniorSoftwareEngineer:
+    play sound "sound/mouse-click-104737.mp3"
     show jobTitle "{size=+20}Senior Software Engineer (Cyberpro Consultant){/size}"
     show companyTitle "{size=+10}HomeChoice{/size}"
     show jobPeriod "{size=-5}{i}January 2021 - March 2022 (1 year 3 months){/i}{/size}"
@@ -272,10 +291,12 @@ label splashscreen:
     return
 
 label start:
-    
+    play sound "sound/mouse-click-104737.mp3"    
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
+    stop music fadeout 1.0
+    play music "music/african-inspiration-3290.mp3"  volume 0.3 fadein 1.0
     call screen gameMenu
     # These display lines of dialogue.
 
@@ -283,8 +304,10 @@ label start:
     return
 
 label ct_or_jozi:
+    play sound "sound/mouse-click-104737.mp3"
     call screen crossroads
 
 label ct:
+    play sound "sound/mouse-click-104737.mp3"
     call screen capetown
 

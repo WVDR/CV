@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 125: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    scene black
-    ^
+File "game/options.rpy", line 65: invalid syntax
+    "music/night-coffee-shop-114856.mp3" fadein 1.0
+                                          ^
 
 Ren'Py Version: Ren'Py 8.1.0.23051307
-Thu Nov  2 14:44:02 2023
+Thu Nov  2 23:04:09 2023
