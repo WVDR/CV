@@ -43,10 +43,10 @@ screen gameMenu():
     
     add gui.game_menu_background
 
-    vbox xalign 0.45 yalign 0.72:        
+    vbox xalign 0.55 yalign 0.72:        
         imagebutton auto "SouthAfrica_%s.png" action [ToggleScreen("gameMenu"), Jump("ct_or_jozi")]
 
-    vbox xalign 0.7 yalign 0.72:        
+    vbox xalign 0.8 yalign 0.72:        
         imagebutton auto "Mauritius_%s.png" action [ToggleScreen("gameMenu"), Jump("maritius")]
 
     vbox xalign 0.47 yalign 0.49:
@@ -59,16 +59,16 @@ screen crossroads():
     tag menu
     image Movie(size=(1920,1080),play="images/background_game_branch.webm")
         
-    vbox xalign 0.337 yalign 0.403:        
+    vbox xalign 0.43 yalign 0.403:        
         imagebutton auto "CBD_left_%s.png" action [ToggleScreen("crossroads"), Jump("ct")]        
 
-    vbox xalign 0.473 yalign 0.333:                
+    vbox xalign 0.57 yalign 0.333:                
         imagebutton auto "CBD_Right_%s.png" action [ToggleScreen("crossroads"), Jump("iotnxt")]
 
-    vbox xalign 0.39 yalign 0.70:        
+    vbox xalign 0.47 yalign 0.70:        
         imagebutton auto "SouthAfrica_%s.png" action [ToggleScreen("crossroads"), Jump("africa")]
 
-    vbox xalign 0.39 yalign 0.25:
+    vbox xalign 0.45 yalign 0.25:
         text "{size=+30}Cross Roads{/size}"        
 
 screen capetown():

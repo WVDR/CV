@@ -42,9 +42,9 @@ define build.name = "CV"
 
 ## Sounds and music ############################################################
 
-define config.default_music_volume = 0.5
-define config.default_sfx_volume = 0.5
-define config.default_voice_volume = 0.5
+define config.default_music_volume = 0.7
+define config.default_sfx_volume = 0.7
+define config.default_voice_volume = 0.9
 init python:
     config.auto_voice = "voice/{id}.mp3"
 
