@@ -57,7 +57,7 @@ screen gameMenu():
 screen crossroads():
     ## This ensures that any other menu screen is replaced.
     tag menu
-    image Movie(size=(1600,1080),play="images/background_game_branch.webm")
+    image Movie(size=(1920,1080),play="images/background_game_branch.webm")
         
     vbox xalign 0.337 yalign 0.403:        
         imagebutton auto "CBD_left_%s.png" action [ToggleScreen("crossroads"), Jump("ct")]        
