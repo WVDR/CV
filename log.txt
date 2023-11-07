@@ -1,19 +1,19 @@
-Mon Nov  6 15:37:55 2023
+Tue Nov  7 11:54:33 2023
 Windows-10-10.0.19043
 Ren'Py 8.1.0.23051307
  
 
 Bootstrap to the start of init.init. took 0.03s
 Early init. took 0.00s
-Loader init. took 0.02s
-Loading error handling. took 0.03s
-Loading script. took 0.20s
-Loading save slot metadata. took 0.03s
+Loader init. took 0.03s
+Loading error handling. took 0.07s
+Loading script. took 0.82s
+Loading save slot metadata. took 0.12s
 Loading persistent. took 0.00s
-Running init code. took 0.05s
-Loading analysis data. took 0.01s
+Running init code. took 0.20s
+Loading analysis data. took 0.02s
 Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.02s
+Reloading save slot metadata. took 0.10s
 Index archives took 0.00s
 Dump and make backups. took 0.05s
 Cleaning cache. took 0.00s
@@ -22,16 +22,16 @@ Initial gc. took 0.02s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.32s
+Creating interface object. took 0.38s
 Cleaning stores took 0.00s
-Init translation took 0.03s
+Init translation took 0.04s
 Build styles took 0.00s
-Load screen analysis took 0.02s
+Load screen analysis took 0.03s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
-Prepare screens took 0.05s
+Prepare screens took 0.06s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
+Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
 Interface start. took 0.09s
@@ -44,12 +44,10 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce GTX 960/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 546.01'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(538, 303) drawable=(538, 303)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
 Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
 Screen sizes: virtual=(1920, 1080) physical=(960, 1017) drawable=(960, 1017)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(958, 1008) drawable=(958, 1008)
@@ -59,14 +57,14 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init. took 23.45s
+Bootstrap to the start of init.init. took 49.67s
 Early init. took 0.00s
 Loader init. took 0.02s
 Loading error handling. took 0.03s
-Loading script. took 0.17s
+Loading script. took 0.18s
 Loading save slot metadata. took 0.02s
 Loading persistent. took 0.00s
-Running init code. took 0.02s
+Running init code. took 0.03s
 Loading analysis data. took 0.01s
 Analyze and compile ATL. took 0.00s
 Reloading save slot metadata. took 0.02s
@@ -75,11 +73,11 @@ Backing up script files to 'C:\\Users\\User\\AppData\\Roaming/RenPy/backups\\CV'
 Dump and make backups. took 0.04s
 Cleaning cache. took 0.00s
 Making clean stores. took 0.00s
-Initial gc. took 0.03s
+Initial gc. took 0.04s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.32s
+Creating interface object. took 0.30s
 Cleaning stores took 0.00s
 Init translation took 0.03s
 Build styles took 0.00s
@@ -104,430 +102,12 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
 Maximum texture size: 4096x4096
 controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(1920, 1080) physical=(538, 303) drawable=(538, 303)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
-Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init. took 40.52s
+Bootstrap to the start of init.init. took 83.17s
 Early init. took 0.00s
 Loader init. took 0.02s
 Loading error handling. took 0.02s
 Loading script. took 0.12s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\User\\AppData\\Roaming/RenPy/backups\\CV':
-Dump and make backups. took 0.04s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.30s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.03s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 960/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 546.01'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Resetting cache.
-Bootstrap to the start of init.init. took 49.82s
-Early init. took 0.00s
-Loader init. took 0.03s
-Loading error handling. took 0.02s
-Loading script. took 0.13s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\User\\AppData\\Roaming/RenPy/backups\\CV':
-Dump and make backups. took 0.05s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.31s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.03s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 960/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 546.01'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Resetting cache.
-Bootstrap to the start of init.init. took 54.60s
-Early init. took 0.00s
-Loader init. took 0.02s
-Loading error handling. took 0.02s
-Loading script. took 0.13s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\User\\AppData\\Roaming/RenPy/backups\\CV':
-Dump and make backups. took 0.05s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.30s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 960/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 546.01'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Resetting cache.
-Bootstrap to the start of init.init. took 59.39s
-Early init. took 0.00s
-Loader init. took 0.03s
-Loading error handling. took 0.02s
-Loading script. took 0.13s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\User\\AppData\\Roaming/RenPy/backups\\CV':
-Dump and make backups. took 0.04s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.32s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.03s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 960/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 546.01'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Resetting cache.
-Bootstrap to the start of init.init. took 73.21s
-Early init. took 0.00s
-Loader init. took 0.02s
-Loading error handling. took 0.02s
-Loading script. took 0.14s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\User\\AppData\\Roaming/RenPy/backups\\CV':
-Dump and make backups. took 0.05s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.31s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.03s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 960/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 546.01'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Resetting cache.
-Bootstrap to the start of init.init. took 79.49s
-Early init. took 0.00s
-Loader init. took 0.03s
-Loading error handling. took 0.02s
-Loading script. took 0.13s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\User\\AppData\\Roaming/RenPy/backups\\CV':
-Dump and make backups. took 0.04s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.31s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 960/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 546.01'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Resetting cache.
-Bootstrap to the start of init.init. took 84.23s
-Early init. took 0.00s
-Loader init. took 0.02s
-Loading error handling. took 0.02s
-Loading script. took 0.13s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\User\\AppData\\Roaming/RenPy/backups\\CV':
-Dump and make backups. took 0.04s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.29s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.03s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 960/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 546.01'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Resetting cache.
-Bootstrap to the start of init.init. took 88.99s
-Early init. took 0.00s
-Loader init. took 0.02s
-Loading error handling. took 0.02s
-Loading script. took 0.12s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\User\\AppData\\Roaming/RenPy/backups\\CV':
-Dump and make backups. took 0.04s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.31s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.03s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 960/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 546.01'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Resetting cache.
-Bootstrap to the start of init.init. took 93.76s
-Early init. took 0.00s
-Loader init. took 0.03s
-Loading error handling. took 0.02s
-Loading script. took 0.13s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\User\\AppData\\Roaming/RenPy/backups\\CV':
-Dump and make backups. took 0.05s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.30s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.03s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 960/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 546.01'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Resetting cache.
-Bootstrap to the start of init.init. took 119.79s
-Early init. took 0.00s
-Loader init. took 0.02s
-Loading error handling. took 0.02s
-Loading script. took 0.15s
 Loading save slot metadata. took 0.02s
 Loading persistent. took 0.00s
 Running init code. took 0.04s
@@ -536,52 +116,6 @@ Analyze and compile ATL. took 0.00s
 Reloading save slot metadata. took 0.02s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\User\\AppData\\Roaming/RenPy/backups\\CV':
-Dump and make backups. took 0.04s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.32s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.03s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 960/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 546.01'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Resetting cache.
-Bootstrap to the start of init.init. took 126.06s
-Early init. took 0.00s
-Loader init. took 0.03s
-Loading error handling. took 0.02s
-Loading script. took 0.13s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\User\\AppData\\Roaming/RenPy/backups\\CV':
 Dump and make backups. took 0.05s
 Cleaning cache. took 0.00s
 Making clean stores. took 0.00s
@@ -589,16 +123,16 @@ Initial gc. took 0.04s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.30s
+Creating interface object. took 0.31s
 Cleaning stores took 0.00s
 Init translation took 0.03s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.02s
-Prepare screens took 0.05s
+Prepare screens took 0.06s
 Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
+Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
 Interface start. took 0.03s
@@ -615,56 +149,10 @@ Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
 Maximum texture size: 4096x4096
 controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
 Resetting cache.
-Bootstrap to the start of init.init. took 133.82s
+Bootstrap to the start of init.init. took 89.46s
 Early init. took 0.00s
 Loader init. took 0.02s
 Loading error handling. took 0.02s
-Loading script. took 0.13s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\User\\AppData\\Roaming/RenPy/backups\\CV':
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.30s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.03s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 960/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 546.01'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Resetting cache.
-Bootstrap to the start of init.init. took 140.07s
-Early init. took 0.00s
-Loader init. took 0.03s
-Loading error handling. took 0.01s
 Loading script. took 0.13s
 Loading save slot metadata. took 0.02s
 Loading persistent. took 0.00s
@@ -681,7 +169,7 @@ Initial gc. took 0.04s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.29s
+Creating interface object. took 0.34s
 Cleaning stores took 0.00s
 Init translation took 0.03s
 Build styles took 0.00s
@@ -707,57 +195,11 @@ Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
 Maximum texture size: 4096x4096
 controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
 Resetting cache.
-Bootstrap to the start of init.init. took 144.84s
+Bootstrap to the start of init.init. took 112.39s
 Early init. took 0.00s
-Loader init. took 0.02s
+Loader init. took 0.03s
 Loading error handling. took 0.02s
 Loading script. took 0.13s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\User\\AppData\\Roaming/RenPy/backups\\CV':
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.32s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce GTX 960/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 546.01'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Resetting cache.
-Bootstrap to the start of init.init. took 186.19s
-Early init. took 0.00s
-Loader init. took 0.02s
-Loading error handling. took 0.02s
-Loading script. took 0.11s
 Loading save slot metadata. took 0.03s
 Loading persistent. took 0.00s
 Running init code. took 0.04s
@@ -766,10 +208,10 @@ Analyze and compile ATL. took 0.00s
 Reloading save slot metadata. took 0.02s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\User\\AppData\\Roaming/RenPy/backups\\CV':
-Dump and make backups. took 0.05s
+Dump and make backups. took 0.04s
 Cleaning cache. took 0.00s
 Making clean stores. took 0.00s
-Initial gc. took 0.05s
+Initial gc. took 0.04s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
@@ -780,9 +222,54 @@ Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.01s
 Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 960/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 546.01'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init. took 117.16s
+Early init. took 0.00s
+Loader init. took 0.03s
+Loading error handling. took 0.02s
+Loading script. took 0.11s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.03s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.30s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
 Interface start. took 0.04s

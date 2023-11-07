@@ -49,7 +49,7 @@ screen gameMenu():
     vbox xalign 0.8 yalign 0.72:        
         imagebutton auto "Mauritius_%s.png" action [ToggleScreen("gameMenu"), Jump("maritius")]
 
-    vbox xalign 0.47 yalign 0.49:
+    vbox xalign 0.57 yalign 0.49:
         text "{size=+30}World Map{/size}"
         text "(click on flags"
         text "to navigate)"
@@ -68,7 +68,7 @@ screen crossroads():
     vbox xalign 0.47 yalign 0.70:        
         imagebutton auto "SouthAfrica_%s.png" action [ToggleScreen("crossroads"), Jump("africa")]
 
-    vbox xalign 0.45 yalign 0.25:
+    vbox xalign 0.50 yalign 0.25:
         text "{size=+30}Cross Roads{/size}"        
 
 screen capetown():
